@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tablamul</string>
+    <string name="numero">numero</string>
+    <string name="resultado">tabla de multiplicar</string>
+    <string name="botonmul">calcular</string>
+    <string name="botonir">ir a archivo</string>
+    <string name="volver">anterior</string>
+    <string name="guardar">guardar</string>
+    <string name="consultar">buscar</string>
+
+</resources>
