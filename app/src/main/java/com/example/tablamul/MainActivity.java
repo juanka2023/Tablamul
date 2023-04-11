@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             //donde se encuentra la tarjeta SD
             File tarjetaSD = Environment.getExternalStorageDirectory();
-            Toast.makeText(this, tarjetaSD.getPath(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, tarjetaSD.getPath(), Toast.LENGTH_LONG).show();
             /// creamos el archivo con el nombre que nos indica el archivo, y el Pach de la tarjera SD
             File rutaArchivo = new File(tarjetaSD.getPath(),nombre );
 
@@ -64,11 +64,11 @@ public class MainActivity extends AppCompatActivity {
             CrearArchivo.flush();
             CrearArchivo.close();
 
-            Toast.makeText(this, "se ha guardado correctamente", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "se ha guardado correctamente", Toast.LENGTH_LONG).show();
             etnumero.setText("");
             etsalida.setText("");
         } catch (IOException e) {
-            Toast.makeText(this, "no se pudo guardar el archivo", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "no se pudo guardar el archivo", Toast.LENGTH_LONG).show();
 
         }
     }

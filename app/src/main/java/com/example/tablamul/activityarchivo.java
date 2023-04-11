@@ -48,7 +48,7 @@ public class activityarchivo extends AppCompatActivity {
             tvresul.setText(contenidoCompleto);
 
         }catch (IOException e){
-            Toast.makeText(this, "error al leer el archivo", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "error al leer el archivo", Toast.LENGTH_LONG).show();
         }
     }
     public void volver(View view){
